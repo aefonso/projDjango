@@ -6,7 +6,7 @@ from utils.recipes.factory import make_recipe
 # HTTP Request
 def home(request):
     return render(request, 'recipes/pages/home.html', context={
-        'recipes': [make_recipe() for _ in range(9)], 'name': 'Afonso Henrique',
+        'recipes': [make_recipe() for _ in range(9)], 'name': 'SoolQueijo',
     })
 
 def recipe(request, id):
@@ -16,13 +16,13 @@ def recipe(request, id):
     })
 
 def receitas(request):
-    return render(request, 'recipes/pages/receitas.html', context={'name': 'Afonso Henrique'})
+    return render(request, 'recipes/pages/receitas.html', context={'name': 'Hamburger'})
 
 def receitas2(request):
-    return render(request, 'recipes/pages/receitas2.html', context={'name': 'Afonso Henrique'})
+    return render(request, 'recipes/pages/receitas2.html', context={'name': 'Hamburger'})
 
 def receitas3(request):
-    return render(request, 'recipes/pages/receitas3.html', context={'name': 'Afonso Henrique'})
+    return render(request, 'recipes/pages/receitas3.html', context={'name': 'Hamburger'})
 
 def contatos1(request):
     return render(request, 'recipes/pages/contatos1.html', context={'name': 'Chefe'})
