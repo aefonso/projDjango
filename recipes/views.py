@@ -23,6 +23,9 @@ def receitas2(request):
 
 def receitas3(request):
     return render(request, 'recipes/pages/receitas3.html', context={'name': 'Afonso Henrique'})
+
+def contatos1(request):
+    return render(request, 'recipes/pages/contatos1.html', context={'name': 'Afonso Henrique'})
   
 def contato(request):
     # HTTP Response
