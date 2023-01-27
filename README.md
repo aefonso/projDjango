@@ -1,5 +1,5 @@
 <h1>Atividade Avaliativa - Desenvolvimento Web para Nuvem</h1>
-<p>Para realização do teste prático para desenvolvedores Front-End, as seguintes tecnologias foram utilizadas:
+
 
 <h2>Como rodar localmente, abrir o terminal e utilizar os comandos a seguir:</h2>
 
