@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '5dywz3WaervdXAybmQuRMqSDgP0x7NH1Ddclu6QpKxcd1FvTLik0ZhT7fJ8d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://projdjango.azurewebsites.net','projdjango.azurewebsites.net']
 
