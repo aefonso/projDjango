@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static
 
 # HTTP Request
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('recipes.urls')),
+    path('static/recipes/css/styles.css', static(settings.STATIC_URL + 'recipes/css/styles.css')),
 ]
